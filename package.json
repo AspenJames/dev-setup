@@ -1,0 +1,28 @@
+{
+  "name": "@aspenjames/setup-dev",
+  "version": "1.0.0",
+  "description": "CLI to set up dev environment from fresh install",
+  "main": "src/index.js",
+  "bin": {
+    "@aspenjames/setup-dev": "bin/setup-dev",
+    "setup-dev": "bin/setup-dev"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:debug": "node inspect node_modules/.bin/jest --runInBand"
+  },
+  "author": "Aspen James",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "arg": "^4.1.3",
+    "chalk": "^3.0.0",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "esm": "^3.2.25",
+    "inquirer": "^7.1.0",
+    "minimist": "^1.2.5"
+  },
+  "devDependencies": {
+    "jest": "^25.2.4"
+  }
+}
